@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trắc nghiệm Lịch sử Đảng Cộng sản Việt Nam</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <style>
+    .answered {
+      background-color: #93c5fd;
+    }
+
+    .unanswered {
+      background-color: #f3f4f6;
+    }
+
+    .correct {
+      background-color: #22c55e;
+      color: white;
+    }
+
+    .wrong {
+      background-color: #ef4444;
+      color: white;
+    }
+
+    label.block:hover {
+      background-color: #e5e7eb;
+      transition: background-color 0.05s ease-in-out;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .quiz-box {
+      max-height: 85vh;
+      overflow-y: auto;
+    }
+
+    .quiz-header {
+      background: linear-gradient(135deg, #b91c1c, #ea580c, #d97706);
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
+      padding: 1rem 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 14px rgba(185, 28, 28, 0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .quiz-header span {
+      font-weight: 800;
+      font-size: clamp(1.2rem, 4vw, 1.75rem);
+      letter-spacing: 0.5px;
+    }
+
+    .quiz-header .emoji {
+      font-size: clamp(1.6rem, 5vw, 2rem);
+    }
+
+    label.block {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    label.block input[type="radio"] {
+      margin: 0;
+      transform: scale(1);
+      /* tăng nhẹ kích thước radio cho dễ bấm trên điện thoại */
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 flex flex-col items-center min-h-screen py-5 px-3">
+
+  <!-- Tiêu đề -->
+  <header class="quiz-header mt-2 text-center">
+    <span class="emoji">🏛️</span>
+    <span>Trắc nghiệm Lịch sử Đảng Cộng sản Việt Nam</span>
+  </header>
+
+  <div class="container bg-white shadow-lg p-4 sm:p-5 rounded-2xl quiz-box border border-gray-100">
+    <!-- Thanh tiêu đề câu hỏi -->
+    <div class="flex justify-between items-center mb-3">
+      <h2 class="text-lg sm:text-xl font-bold">
+        Câu
+        {{ q_index }}/
+        {{ total }}
+      </h2>
+      <div class="flex items-center gap-2 text-sm">
+        <p class="text-gray-500">
+          {{ "Chế độ luyện tập" if mode == "practice" else "Chế độ thi" }}
+        </p>
+        <a href="{{ url_for('home') }}" class="bg-green-600 text-white px-3 py-1 rounded-lg hover:bg-green-700 transition">
+          🏠 Thoát
+        </a>
+      </div>
+    </div>
+
+    <!-- Câu hỏi -->
+    <p class="text-base sm:text-lg font-medium mb-3 text-gray-800 leading-relaxed">
+      {{ question["question"] }}
+    </p>
+
+    <!-- Các đáp án -->
+    <form method="POST" class="space-y-2">
+      {% for opt in question["options"] %}
+      {% set style = "" %}
+      {% if mode == "practice" and selected == opt %}
+      {% if is_correct == True and opt == question["correct"] %}
+      {% set style = "correct" %}
+      {% elif is_correct == False and opt == selected %}
+      {% set style = "wrong" %}
+      {% endif %}
+      {% elif mode == "practice" and opt == question["correct"] and is_correct == False %}
+      {% set style = "correct" %}
+      {% endif %}
+
+      <label class="block border p-2 sm:p-3 rounded-xl cursor-pointer text-sm sm:text-base {{ style }}">
+        <input type="radio" name="answer" value="{{ opt }}" {% if selected == opt %}checked{% endif %} class="mr-2">
+        {{ opt }}
+      </label>
+      {% endfor %}
+
+      <!-- Nút điều hướng -->
+      <div class="flex justify-between mt-4 pt-2">
+        <button name="nav" value="back" class="bg-gray-400 text-white px-4 py-2 rounded-xl text-sm hover:bg-gray-500 transition">
+          Quay lại
+        </button>
+        <button name="nav" value="next" class="bg-blue-600 text-white px-4 py-2 rounded-xl text-sm hover:bg-blue-700 transition">
+          Tiếp
+        </button>
+      </div>
+    </form>
+
+    <!-- Thanh tiến độ -->
+    <div class="flex flex-wrap justify-center gap-1 mt-4">
+      {% for i in range(total) %}
+      {% set status = answers_status[i] %}
+      {% if mode == "practice" %}
+      {% if i < results|length %}
+      {% if results[i] == "correct" %}
+      {% set status = "bg-green-400 text-white" %}
+      {% elif results[i] == "wrong" %}
+      {% set status = "bg-red-400 text-white" %}
+      {% endif %}
+      {% endif %}
+      {% endif %}
+      <a href="{{ url_for('goto', index=i) }}" class="px-3 py-1 rounded-full text-xs sm:text-sm font-bold {{ status }} hover:bg-blue-300 transition">
+        {{ i+1 }}
+      </a>
+      {% endfor %}
+    </div>
+
+  </div>
+</body>
+
+</html>
