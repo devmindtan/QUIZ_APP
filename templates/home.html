@@ -4,35 +4,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chọn chế độ Quiz</title>
+  <title>Chọn bộ câu hỏi Quiz</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
 
-<body class="bg-gradient-to-br from-blue-50 via-white to-red-50 flex flex-col items-center justify-center min-h-screen p-4">
+<body class="bg-gray-200 from-blue-50 via-white to-red-50 flex flex-col items-center justify-center min-h-screen p-4">
 
-  <!-- Khung chính -->
-  <div class="bg-white/90 backdrop-blur-md p-10 rounded-3xl shadow-2xl text-center max-w-lg w-full border border-gray-100">
+  <div class="bg-white backdrop-blur-md p-10 rounded-3xl shadow-2xl text-center max-w-lg w-full border border-gray-100">
 
-    <!-- Tiêu đề -->
     <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-4 leading-tight">
-      🏛️ Trắc nghiệm Lịch sử Đảng Cộng sản Việt Nam
+      Trắc nghiệm
     </h1>
 
     <p class="text-gray-600 mb-8 text-lg sm:text-xl">
-      Hãy chọn chế độ làm bài bạn muốn bắt đầu:
+      Hãy chọn bộ câu hỏi và chế độ làm bài:
     </p>
 
-    <!-- Hai nút chọn chế độ -->
-    <div class="flex flex-col sm:flex-row justify-center gap-6">
-      <a href="{{ url_for('start', mode='exam') }}" class="bg-blue-600 text-white px-6 py-4 rounded-2xl text-xl font-semibold shadow-md hover:bg-blue-700 transform hover:scale-105 transition">
-        🎯 Chế độ thi
-      </a>
-      <a href="{{ url_for('start', mode='practice') }}" class="bg-green-600 text-white px-6 py-4 rounded-2xl text-xl font-semibold shadow-md hover:bg-green-700 transform hover:scale-105 transition">
-        🧠 Luyện tập
-      </a>
-    </div>
+    <form id="quizForm" class="space-y-6">
+      <!-- Selection box -->
+      <div>
+        <label class="block text-gray-700 mb-2 font-medium">Chọn bộ câu hỏi:</label>
+        <select id="filename" class="w-full p-3 rounded-xl border border-gray-300 text-gray-700 text-base">
+          {% for f in files %}
+          <option value="{{ f }}">
+            {{ f[:-5] }}
+          </option>
+          {% endfor %}
+        </select>
+
+      </div>
+
+      <!-- Chọn chế độ -->
+      <div class="flex flex-col sm:flex-row justify-center gap-6">
+        <button type="button" onclick="submitForm('exam')" class="bg-blue-600 text-white px-6 py-4 rounded-2xl text-xl font-semibold shadow-md hover:bg-blue-700 transform hover:scale-105 transition">
+          🎯 Chế độ thi
+        </button>
+        <button type="button" onclick="submitForm('practice')" class="bg-green-600 text-white px-6 py-4 rounded-2xl text-xl font-semibold shadow-md hover:bg-green-700 transform hover:scale-105 transition">
+          🧠 Luyện tập
+        </button>
+      </div>
+    </form>
 
   </div>
+
+  <script>
+    function submitForm(mode) {
+      const select = document.getElementById('filename');
+      const filename = select.value;
+      const url = `/start/${mode}/${filename}`;
+      window.location.href = url;
+    }
+  </script>
 
 </body>
 

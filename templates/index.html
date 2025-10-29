@@ -42,18 +42,26 @@
     }
 
     .quiz-header {
-      background: linear-gradient(135deg, #b91c1c, #ea580c, #d97706);
-      color: white;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
+      background-color: #ffffff;
+      /* xám nhạt, dịu mắt */
+      color: #1f2937;
+      /* chữ tối, rõ ràng */
       padding: 1rem 1.5rem;
       border-radius: 1rem;
-      box-shadow: 0 4px 14px rgba(185, 28, 28, 0.35);
+      border-left: 6px solid #3d557b;
+      border-right: 6px solid #3d557b;
+      /* đường viền xanh tạo điểm nhấn */
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-wrap: wrap;
       gap: 0.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      /* nhẹ nhàng */
     }
+
+
 
     .quiz-header span {
       font-weight: 800;
@@ -79,15 +87,14 @@
   </style>
 </head>
 
-<body class="bg-gray-100 flex flex-col items-center min-h-screen py-5 px-3">
+<body class="bg-gray-200 flex flex-col items-center min-h-screen py-5 px-3">
 
   <!-- Tiêu đề -->
-  <header class="quiz-header mt-2 text-center">
-    <span class="emoji">🏛️</span>
-    <span>Trắc nghiệm Lịch sử Đảng Cộng sản Việt Nam</span>
+  <header class="quiz-header mt-2 mb-3 text-center">
+    <span>Trắc nghiệm </span>
   </header>
 
-  <div class="container bg-white shadow-lg p-4 sm:p-5 rounded-2xl quiz-box border border-gray-100">
+  <div class="container bg-white shadow-lg p-4 sm:p-5 rounded-2xl quiz-box border border-gray-100 mt-3">
     <!-- Thanh tiêu đề câu hỏi -->
     <div class="flex justify-between items-center mb-3">
       <h2 class="text-lg sm:text-xl font-bold">
