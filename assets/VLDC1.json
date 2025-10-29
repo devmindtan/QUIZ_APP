@@ -1,0 +1,371 @@
+[
+  {
+    "ID": "1",
+    "Question": "Gia tốc pháp tuyến n của chuyển động khi khác không (≠0) sẽ làm cho chuyển động đó thay đổi về:",
+    "A": "Độ lớn vận tốc",
+    "B": "Chiều của chuyển động",
+    "C": "Phương và chiều của chuyển động",
+    "D": "Phương của chuyển động",
+    "Answer": "D"
+  },
+  {
+    "ID": "2",
+    "Question": "Chất điểm đang chuyển động tròn đều, véctơ gia tốc của nó có đặc điểm là:",
+    "A": "Luôn vuông góc với véctơ vận tốc",
+    "B": "Luôn nằm trên tiếp tuyến của quỹ đạo",
+    "C": "Luôn hợp với véctơ vận tốc một góc  không đổi",
+    "D": "Có hai trong các đáp án trên là đúng",
+    "Answer": "D"
+  },
+  {
+    "ID": "3",
+    "Question": "Chất điểm chuyển động tròn đều, vectơ gia tốc của nó có đặc điểm là:",
+    "A": "Độ lớn của vectơ gia tốc luôn tỷ lệ với (v2)",
+    "B": "Vectơ gia tốc luôn hướng vào bề lõm của qũi đạo",
+    "C": "Vectơ gia tốc luôn nằm trên tiếp tuyến của qũi đạo",
+    "D": "Có hai trong các đáp án trên là đúng",
+    "Answer": "D"
+  },
+  {
+    "ID": "4",
+    "Question": "Vật nào sau đây không thể được coi là chuyển động rơi tự do:",
+    "A": "Viên bi nhỏ thả rơi từ trên cao xuống đất",
+    "B": "Chiếc lá vàng rụng từ trên cây xuống đất",
+    "C": "Tờ giấy mỏng rơi từ trên bàn xuống đất",
+    "D": "Có 2 đáp án ở trên là đúng",
+    "Answer": "D"
+  },
+  {
+    "ID": "5",
+    "Question": "Chọn câu trả lời đúng - trong chân không vật nào sau đây sẽ rơi nhanh nhất",
+    "A": "Viên bi sắt, chiếc lá vàng và tờ giấy rơi nhanh như nhau",
+    "B": "Viên bi sắt rơi nhanh nhất, tờ giấy và lá vàng rơi sau",
+    "C": "Tờ giấy và lá vàng rơi nhanh hơn, viên bi sắt rơi sau",
+    "D": "Lá vàng và tờ giấy rơi nhanh hơn, viên bi sắt rơi sau",
+    "Answer": "A"
+  },
+  {
+    "ID": "6",
+    "Question": "Thành phần gia tốc pháp tuyến n ?",
+    "A": "Đặc trưng cho sự biến thiên về phương của chuyển động",
+    "B": "Đặc trưng cho sự biến thiên về độ lớn của vectơ vận tốc",
+    "C": "Đặc trưng cho sự biến thiên về chiều của vectơ vận tốc",
+    "D": "Có 2 đáp án đúng",
+    "Answer": "A"
+  },
+  {
+    "ID": "7",
+    "Question": "Thành phần gia tốc tiếp tuyến t ?",
+    "A": "Đặc trưng cho sự biến thiên về phương của chuyển động",
+    "B": "Đặc trưng cho sự biến thiên về độ lớn của vectơ vận tốc",
+    "C": "Đặc trưng cho sự biến thiên về chiều của vectơ vận tốc",
+    "D": "Có 2 đáp án đúng",
+    "Answer": "B"
+  },
+  {
+    "ID": "8",
+    "Question": "Khái niệm “chất điểm” trong vật lý",
+    "A": "Khái niệm “chất điểm” trong vật lý là đồng nhất với khái niệm “điểm” trong toán học",
+    "B": "“Chất điểm” ở trong vật lý được coi là có kích thước",
+    "C": "Khái niệm “chất điểm” trong vật lý là khác với khái niệm “điểm” trong toán học",
+    "D": "Có 2 trong các đáp án trên là đúng",
+    "Answer": "D"
+  },
+  {
+    "ID": "9",
+    "Question": "Trong chuyển động tròn biến đổi đều, véc tơ gia tốc góc của chất điểm luôn:",
+    "A": "Không đổi",
+    "B": "Vuông góc với mặt phẳng quỹ đạo",
+    "C": "Vuông góc với tiếp tuyến quỹ đạo và hướng về bề lõm quỹ đạo",
+    "D": "Tiếp tuyến với quỹ đạo chuyển động",
+    "Answer": "A"
+  },
+  {
+    "ID": "10",
+    "Question": "Trong chuyển động tròn biến đổi đều, vectơ vận tốc góc có đặc điểm:",
+    "A": "Không đổi cả về phương, chiều lẫn độ lớn.",
+    "B": "Vuông góc với mặt phẳng quỹ đạo",
+    "C": "Tiếp tuyến với quỹ đạo chuyển động",
+    "D": "Vuông góc với véc tơ gia tốc góc",
+    "Answer": "B"
+  },
+  {
+    "ID": "11",
+    "Question": "Vectơ gia tốc a của chất điểm chuyển động trên qũi đạo cong bất kỳ nào cũng có đặc điểm:",
+    "A": "Vuông góc với vectơ vận tốc dài v",
+    "B": "Cùng phương với v",
+    "C": "Nằm trên tiếp tuyến của quĩ đạo",
+    "D": "Cả a, b, c đều sai.",
+    "Answer": "D"
+  },
+  {
+    "ID": "12",
+    "Question": "Một chất điểm chuyển động thẳng với vận tốc đầu là v0, có vận tốc phụ thuộc theo thời gian là v = v0 – kt2 với k>0 và k = const. Hỏi chuyển động của chất điểm là chuyển động:",
+    "A": "Chậm dần đều",
+    "B": "Chậm dần",
+    "C": "Nhanh dần",
+    "D": "Biến đổi đều",
+    "Answer": "B"
+  },
+  {
+    "ID": "13",
+    "Question": "Trong chuyển động tròn, ta có mối liên hệ giữa các véctơ bán kính R, gia tốc góc α và gia tốc tiếp tuyến t như sau:",
+    "A": "t = α × R",
+    "B": "α = t × R",
+    "C": "R = α × t",
+    "D": "Cả A, B và C đều đúng",
+    "Answer": "A"
+  },
+  {
+    "ID": "14",
+    "Question": "Trong chuyển động tròn, ta có mối quan hệ giữa vectơ vận tốc dài v, vận tốc góc ω và vectơ bán kính R như sau:",
+    "A": "ω = R x v",
+    "B": "v = ω x R",
+    "C": "R = ω x v",
+    "D": "Cả a, b, c đều đúng",
+    "Answer": "B"
+  },
+  {
+    "ID": "15",
+    "Question": "Hệ quy chiếu quán tính là hệ quy chiếu như thế nào ?",
+    "A": "Là hệ quy chiếu chuyển động thẳng đều so với hệ quy chiếu gắn với trái đất.",
+    "B": "Là hệ quy chiếu có thành phần gia tốc pháp tuyến bằng không",
+    "C": "Là hệ quy chiếu đứng yên so với hệ quy chiếu gắn với trái đất.",
+    "D": "Có hai trong các đáp án trên là đúng",
+    "Answer": "D"
+  },
+  {
+    "ID": "16",
+    "Question": "Hệ quy chiếu quán tính là hệ:",
+    "A": "Chuyển động có gia tốc với hệ quy chiếu gắn với trái đất",
+    "B": "Chuyển động tròn đều so với hệ quy chiếu gắn với trái đất",
+    "C": "Chuyển động thẳng đều so với hệ quy chiếu gắn với trái đất",
+    "D": "Có hai trong các đáp án trên là đúng",
+    "Answer": "C"
+  },
+  {
+    "ID": "17",
+    "Question": "Quán tính là tính chất:",
+    "A": "Bảo toàn trạng thái chuyển động",
+    "B": "Bảo toàn trạng thái đứng yên",
+    "C": "Bảo toàn trạng thái ban đầu",
+    "D": "Có 2 trong các đáp án trên là đúng",
+    "Answer": "D"
+  },
+  {
+    "ID": "18",
+    "Question": "Khảo sát chuyển động của một vật trong hệ tọa độ OXYZ. Hệ tọa độ này phải gắn vào vật nào dưới đây để được coi là hệ quy chiếu quán tính:",
+    "A": "Ô tô chuyển động thẳng nhanh dần đều",
+    "B": "Thang máy đi lên với vận tốc không đổi",
+    "C": "Tàu hỏa chuyển động đều vòng quanh chân núi",
+    "D": "Tàu cánh ngầm đang sắp cập bến",
+    "Answer": "B"
+  },
+  {
+    "ID": "19",
+    "Question": "Khi có ngoại lực tác dụng lên một chất điểm đang chuyển động thẳng đều và cùng phương với chuyển động thì chất điểm đó:",
+    "A": "Vẫn chuyển động thẳng đều",
+    "B": "Sẽ chuyển động tròn đều",
+    "C": "Sẽ chuyển động thẳng biến đổi đều",
+    "D": "Sẽ chuyển động tròn biến đổi đều.",
+    "Answer": "C"
+  },
+  {
+    "ID": "20",
+    "Question": "Động lượng của một hệ bảo toàn khi:",
+    "A": "Tổng hợp các ngoại lực theo phương ngang bằng không",
+    "B": "Tổng hợp các ngoại lực bằng không",
+    "C": "Tổng hợp các ngoại lực theo phương đứng bằng không",
+    "D": "Tổng hợp các mômen ngoại lực bằng không",
+    "Answer": "B"
+  },
+  {
+    "ID": "21",
+    "Question": "Trường lực nào sau đây không phải là trường lực thế ?:",
+    "A": "Trường lực hấp dẫn.",
+    "B": "Trường lực đàn hồi.",
+    "C": "Trường trọng lực",
+    "D": "Trường lực ma sát",
+    "Answer": "D"
+  },
+  {
+    "ID": "22",
+    "Question": "Theo nguyên lý tương đối Galilê thì đại lượng vật lý nào sau đây mang tính chất tương đối (tức là phụ thuộc vào hệ quy chiếu) :",
+    "A": "Thời gian xảy ra sự kiện",
+    "B": "Kích thước vật",
+    "C": "Khối lượng của vật",
+    "D": "Vị trí của vật",
+    "Answer": "D"
+  },
+  {
+    "ID": "23",
+    "Question": "Chọn câu sai:",
+    "A": "Lực là nguyên nhân gây ra gia tốc.",
+    "B": "Lực là nguyên nhân gây ra vận tốc.",
+    "C": "Lực là nguyên nhân làm biến đổi chuyển động.",
+    "D": "Có 2 đáp án đúng",
+    "Answer": "B"
+  },
+  {
+    "ID": "24",
+    "Question": "Động lượng của một hệ bảo toàn khi:",
+    "A": "Lực tổng hợp các nội lực triệt tiêu",
+    "B": "Lực tổng hợp các ngoại lực triệt tiêu",
+    "C": "Tổng hợp các mô men nội lực triệt tiêu",
+    "D": "Có 2 đáp án đúng",
+    "Answer": "B"
+  },
+  {
+    "ID": "25",
+    "Question": "Theo các định luật Newton, khi có hai vật có khối lượng khác nhau tương tác với nhau thì nếu so sánh lực tác dụng lên hai vật sẽ thấy:",
+    "A": "Lực tác dụng lên vật lớn sẽ lớn hơn.",
+    "B": "Lực tác dụng lên vật nhỏ sẽ lớn hơn.",
+    "C": "Hai lực có độ lớn bằng nhau.",
+    "D": "Có 2 đáp án đúng",
+    "Answer": "C"
+  },
+  {
+    "ID": "26",
+    "Question": "Trong quá trình chuyển động của một chất điểm ở trong trọng trường, công của trọng lực không phụ thuộc vào yếu tố nào sau đây?",
+    "A": "Khối lượng của chất điểm",
+    "B": "Độ cao ban đầu của chất điểm",
+    "C": "Độ cao lúc sau của chất điểm",
+    "D": "Quỹ đạo dạng đường đi của chất điểm",
+    "Answer": "C"
+  },
+  {
+    "ID": "27",
+    "Question": "Phương trình cơ bản của động lực học cổ điển là :",
+    "A": "S = vot + (1/2)at2",
+    "B": "F = ma",
+    "C": "F = Fn + Ft",
+    "D": "F = dK/dt",
+    "Answer": "B"
+  },
+  {
+    "ID": "28",
+    "Question": "Theo định luật III Newton, các vật tương tác với nhau bằng các cặp lực trực đối gọi là lực và phản lực. Một vật đặt nằm yên trên mặt bàn ngang như hình vẽ sẽ chịu tác dụng một phản lực pháp tuyến N của mặt bàn. Vậy phản lực N’ của N là lực nào?",
+    "A": "Trọng lực P của vật.",
+    "B": "Áp lực Q mà vật đè lên bàn.",
+    "C": "Lực ma sát giữa mặt bàn và vật.",
+    "D": "a, b, c đều sai.",
+    "Answer": "B"
+  },
+  {
+    "ID": "29",
+    "Question": "Mô men quán tính I của một vật rắn đặc trưng cho:",
+    "A": "Sự biến đổi vận tốc góc của vật rắn quay",
+    "B": "Mức quán tính của vật rắn",
+    "C": "Mức quán tính của vật rắn trong chuyển động quay",
+    "D": "Có hai trong các đáp án trên là đúng",
+    "Answer": "B"
+  },
+  {
+    "ID": "30",
+    "Question": "Một người cầm 2 quả tạ đứng trên ghế Giucốpxki đang quay xung quanh một trục thẳng đứng. Khi người đó giang tay ra thì ghế sẽ :",
+    "A": "Quay chậm lại",
+    "B": "Quay nhanh lên",
+    "C": "Đứng lại",
+    "D": "Quay như cũ",
+    "Answer": "A"
+  },
+  {
+    "ID": "31",
+    "Question": "Có một hình trụ đặc và một hình trụ rỗng cùng khối lượng m và cùng bán kính R được thà lăn tự do từ cùng một độ cao trên đỉnh dốc:",
+    "A": "Hình trụ đặc sẽ lăn xuống dốc nhanh hơn và xuống tới chân dốc trước",
+    "B": "Hình trụ rỗng sẽ lăn xuống dốc nhanh hơn và xuống tới chân dốc trước",
+    "C": "Hình trụ đặc và hình trụ rỗng sẽ lăn xuống dốc nhanh như nhau",
+    "D": "Hình trụ đặc sẽ bắt đầu xuống dốc nhanh hơn nhưng xuống tới chân dốc chậm hơn do sức ỳ",
+    "Answer": "A"
+  },
+  {
+    "ID": "32",
+    "Question": "Có một hình trụ đặc và một hình trụ rỗng, một quả cầu đặc và một quả cầu rỗng cùng khối lượng m và cùng bán kính R được thà lăn tự do từ cùng một độ cao trên đỉnh dốc. Hỏi vật nào sẽ xuống dốc trước?",
+    "A": "Trụ đặc",
+    "B": "Trụ rỗng",
+    "C": "Cầu đặc",
+    "D": "Cầu rỗng",
+    "Answer": "C"
+  },
+  {
+    "ID": "33",
+    "Question": "Có một hình trụ đặc và một hình trụ rỗng, một quả cầu đặc và một quả cầu rỗng cùng khối lượng m và cùng bán kính R. Hỏi vật nào có mô men quán tính lớn nhất?",
+    "A": "Trụ đặc",
+    "B": "Trụ rỗng",
+    "C": "Cầu đặc",
+    "D": "Cầu rỗng",
+    "Answer": "B"
+  },
+  {
+    "ID": "34",
+    "Question": "Momen quán tính của một thanh đồng nhất có khối lượng m, chiều dài 2l đối với trục đi qua điểm giữa của thanh và vuông góc với thanh là:",
+    "A": "I = ml^2 / 12",
+    "B": "I = ml^2 / 3",
+    "C": "I = ml^3",
+    "D": "I = ml + 2/3",
+    "Answer": "B"
+  },
+  {
+    "ID": "35",
+    "Question": "Momen quán tính của một trụ rỗng đồng nhất khối lượng M, bán kính R đối với một đường sinh của nó là:",
+    "A": "2MR^2",
+    "B": "3MR^2",
+    "C": "MR^2",
+    "D": "MR^2 / 2",
+    "Answer": "A"
+  },
+  {
+    "ID": "36",
+    "Question": "Momen quán tính của một quả cầu đặc đồng nhất khối lượng M, bán kính R đối với trục đi qua khối tâm của nó là:",
+    "A": "2MR^2",
+    "B": "2/5 MR^2",
+    "C": "MR^2 / 3",
+    "D": "3MR^2",
+    "Answer": "B"
+  },
+  {
+    "ID": "37",
+    "Question": "Momen quán tính của một quả cầu rỗng đồng nhất khối lượng M, bán kính R đối với trục đi qua khối tâm của nó là:",
+    "A": "2MR^2",
+    "B": "3/2 MR^2",
+    "C": "2/3 MR^2",
+    "D": "3MR^2 / 2",
+    "Answer": "C"
+  },
+  {
+    "ID": "38",
+    "Question": "Momen quán tính của một thanh đồng nhất có khối lượng m, chiều dài 2l đối với trục đi qua một đầu của thanh và vuông góc với thanh là:",
+    "A": "I = 5ml^2 / 3",
+    "B": "I = 4ml^2 / 3",
+    "C": "I = ml^2 / 3",
+    "D": "I = 2ml^2 / 3",
+    "Answer": "B"
+  },
+  {
+    "ID": "39",
+    "Question": "Một vòng kim loại bán kính R, khối lượng m phân bố đều. Mômen quán tính đối với trục quay vuông góc với mặt phẳng vòng dây tại một điểm trên vòng dây là.",
+    "A": "I = 3/2 mR^2",
+    "B": "I = mR^2",
+    "C": "I = 1/2 mR^2",
+    "D": "I = 2mR^2",
+    "Answer": "D"
+  },
+  {
+    "ID": "40",
+    "Question": "Một vô lăng hình đĩa tròn đồng nhất, khối lượng m, bán kính R đang quay với vận tốc góc ωo thì bị hãm đều và dừng lại sau t giây. Độ lớn của mômen của lực hãm là:",
+    "A": "mR^2ωo / (2t)",
+    "B": "m^2R^2ωo / (2t)",
+    "C": "mR^2ωo / (2t^2)",
+    "D": "ωo / (2mt)",
+    "Answer": "A"
+  },
+  {
+    "ID": "41",
+    "Question": "Một người đứng thẳng trên ghế Giucốpxki đang đứng yên (ghế có thể quay xung quanh 1 trục thẳng đứng) tay cầm 1 trục thẳng đứng của bánh xe nhỏ. Nếu người đó cho bánh xe quay với vận tốc góc ω1 thì ghế sẽ quay theo vận tốc góc ω2 với chiều :",
+    "A": "ω1 = ω2 , cùng chiều bánh xe",
+    "B": "ω1 > ω2 , cùng chiều bánh xe",
+    "C": "ω1 > ω2 , ngược chiều bánh xe",
+    "D": "ω1 < ω2 , ngược chiều bánh xe",
+    "Answer": "C"
+  }
+]
